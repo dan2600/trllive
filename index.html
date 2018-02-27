@@ -1,1 +1,107 @@
-<!doctype html><html class="no-js" lang=""><head> <meta charset="utf-8"> <meta http-equiv="x-ua-compatible" content="ie=edge"> <title>TRL Live</title> <meta name="description" content="TRL Live Compainion Site"> <meta name="viewport" content="width=device-width, initial-scale=1"> <link rel="shortcut icon" href="favicon.ico"/> <style>body, html{padding: 0; margin: 0; height: 100%;}.page{display: flex; flex-flow: column; height: 100%;}.container{background-color: black; flex: 1 1 auto;}.logo{margin-top: -1px;}.header{box-sizing: border-box; background-color: black; width: 100%; padding-left: 10%; flex: 0 1 auto;}</style></head><body><!--[if lte IE 9]> <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p><![endif]--> <div class="page"> <div class="header"> <a href="http://trl.mtv.com"> <img class="logo" src="logo.png"> </a> </div><div class="container"> <style rel="stylesheet"> .scroll-wrapper{-webkit-overflow-scrolling: touch;}.scroll-wrapper iframe{border: none;}</style> <div class="scroll-wrapper"> <iframe id="MegaControllerIframe-1519750874289" style="width: 100%; min-height: 480px;" src="https://mpcontrollers.s3.amazonaws.com/mtv/totalrequestlive/live/index.html"></iframe> </div><script type="text/javascript">(function(){if (window && window.addEventListener){var MegaphoneController=document.getElementById("MegaControllerIframe-1519750874289"); MegaphoneController.receiveMessage=function(message){if (message.data.origin==="Megaphone"){MegaphoneController.style.height=(parseInt(message.data.height) + 1).toString() + "px";}}; window.addEventListener("message", MegaphoneController.receiveMessage, false);}}()); </script> </div></div></body></html>
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>TRL on MTV</title>
+    <meta name="description" content="Play along with TRL Live">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="favicon.ico" />
+    <style>
+    body,
+    html {
+        padding: 0;
+        margin: 0;
+        height: 100%;
+    }
+
+    .page {
+        display: flex;
+        flex-flow: column;
+        height: 100%;
+    }
+
+    .container {
+        background-color: black;
+        flex: 1 1 auto;
+    }
+
+    .logo {
+        margin-top: -1px;
+    }
+
+    .header {
+        box-sizing: border-box;
+        background-color: black;
+        width: 100%;
+        padding-left: 10%;
+        flex: 0 1 auto;
+    }
+    .footer{
+        padding-top: 20px;
+        text-align: center;
+        flex:  0 1 100px;
+        background-color: rgb(242, 242, 242);
+        font-family: AkzidenzGrotesk, sans-serif;
+font-size: 14px;
+color: rgb(119, 119, 119);
+    }
+    .list, .list_item{
+
+        box-sizing: border-box;
+color: rgb(119, 119, 119);
+display: inline-block;
+font-family: AkzidenzGrotesk, sans-serif;
+font-size: 14px;
+list-style-type: none;
+margin-bottom: 15px;
+padding-bottom: 0px;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 0px;
+text-align: center;
+    }
+    .list a{
+            color: rgb(119, 119, 119);
+    text-decoration: none;
+    }
+        .list a:hover{
+            color: black;
+    text-decoration: underline;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="page">
+        <div class="header"> <a href="http://trl.mtv.com"> <img class="logo" src="logo.png"> </a> </div>
+        <div class="container">
+            <style rel="stylesheet">
+            .scroll-wrapper {
+                -webkit-overflow-scrolling: touch;
+            }
+
+            .scroll-wrapper iframe {
+                border: none;
+            }
+            </style>
+            <div class="scroll-wrapper">
+                <iframe id="MegaControllerIframe-1519750874289" style="width: 100%; min-height: 480px;" src="https://mpcontrollers.s3.amazonaws.com/mtv/totalrequestlive/live/index.html"></iframe>
+            </div>
+            <script type="text/javascript">
+            (function() { if (window && window.addEventListener) { var MegaphoneController = document.getElementById("MegaControllerIframe-1519750874289");
+                    MegaphoneController.receiveMessage = function(message) { if (message.data.origin === "Megaphone") { MegaphoneController.style.height = (parseInt(message.data.height) + 1).toString() + "px"; } };
+                    window.addEventListener("message", MegaphoneController.receiveMessage, false); } }());
+            </script>
+        </div>
+        <div class="footer">
+            
+<ul class="list"><li class="list_item"><a href="http://www.mtv.com/legal/frequently-asked-questions" target="_blank" title="FAQ/Help" class="faq_help">FAQ/Help</a></li><li class="list_item"><a href="http://www.viacomcareers.com/" target="_blank" title="Jobs" class="jobs">Jobs</a></li><li class="list_item"><a href="http://www.mtv.com/legal/terms" target="_blank" title="Terms of Use [Updated 3/14/2017]" class="terms_of_use__updated_3_14_2017_">Terms of Use [Updated 3/14/2017]</a></li><li class="list_item"><a href="http://www.mtv.com/legal/privacy" target="_blank" title="Privacy Policy/Privacy Rights [Updated 6/22/2017]" class="privacy_policy_privacy_rights__updated_6_22_2017_">Privacy Policy/Privacy Rights [Updated 6/22/2017]</a></li><li class="list_item"><a href="http://www.mtv.com/legal/copyright" target="_blank" title="Copyright" class="copyright">Copyright</a></li><li class="list_item"><a href="http://mainevents.mtvn.com/accessibility/" target="_blank" title="Closed Captioning" class="closed_captioning">Closed Captioning</a></li><li class="list_item"><a href="http://srp.viacom.com/sitefaq.html" target="_blank" title="Ad Choices" class="ad_choices">Ad Choices</a></li></ul>
+<br>
+© 2018 Viacom International Inc. All Rights Reserved. MTV and all related titles and logos are trademarks of Viacom International Inc.
+        </div>
+    </div>
+</body>
+
+</html>
